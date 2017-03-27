@@ -1,0 +1,39 @@
+{
+  "name": "babylon-undeclared-identifiers",
+  "version": "1.0.0",
+  "description": "given a javascript source code, it returns any undeclared identifiers",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "tdd": "jest --watch",
+    "precommit": "npm test",
+    "pretest": "node_modules/.bin/standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capaj/babylon-undeclared-identifiers.git"
+  },
+  "keywords": [
+    "babylon",
+    "ast",
+    "undeclared"
+  ],
+  "author": "capajj@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/capaj/babylon-undeclared-identifiers/issues"
+  },
+  "homepage": "https://github.com/capaj/babylon-undeclared-identifiers#readme",
+  "dependencies": {
+    "babel-traverse": "^6.23.1",
+    "babylon": "^6.16.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^19.0.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "husky": "^0.13.2",
+    "jest": "^19.0.2",
+    "standard": "^9.0.2"
+  }
+}
